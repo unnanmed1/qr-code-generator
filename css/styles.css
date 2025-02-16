@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    margin-bottom: 20px;
+}
+
+.container {
+    max-width: 800px;
+}
+
+.tab-content {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+#qrCodeResult {
+    margin: 20px 0;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+/* How It Works Section */
+#how-it-works {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+}
+
+#how-it-works .card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+#how-it-works .card:hover {
+    transform: translateY(-10px);
+}
+
+#how-it-works .card-title {
+    font-size: 1.5rem;
+    color: #007bff;
+}
+
+#how-it-works .card-text {
+    font-size: 1rem;
+    color: #555;
+}
