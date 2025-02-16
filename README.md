@@ -23,7 +23,17 @@ Check out the live demo: **[QR Code Generator Live Demo](#)** *(Add your live de
 1. Select the type of QR code (e.g., Text, URL, Email, etc.).  
 2. Enter the required information (e.g., URL, email, phone number, etc.).  
 3. Click **"Generate QR Code"** to create the QR code.  
-4. Download the QR code as a **PNG image**.  
+4. Download the QR code as a **PNG image**.
+
+### **1️⃣ Install phpqrcode Library**  
+1. **Download** the phpqrcode library from [here](https://sourceforge.net/projects/phpqrcode/).  
+2. **Extract** the downloaded files.  
+3. **Move** the `phpqrcode` folder into the **root directory** of your project.  
+
+### **2️⃣ Run the Project**  
+- Make sure you have a local server like **XAMPP, WAMP, or LAMP** installed.  
+- Place the project folder in your `htdocs` (for XAMPP) or `www` (for WAMP).  
+- Start your local server and open the project in your browser.  
 
 ## 📸 Screenshots  
 - **Homepage**  
