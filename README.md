@@ -28,8 +28,7 @@ Check out the live demo: **[QR Code Generator Live Demo](#)** *(Add your live de
 ## 📸 Screenshots  
 - **Homepage**  
 - **QR Code Generation**  
-- **How It Works**  
-*(Add screenshots in this section if available)*  
+- **How It Works**   
 
 ## 🤝 Contributing  
 Contributions are welcome! If you'd like to contribute, feel free to **open a pull request**.  
