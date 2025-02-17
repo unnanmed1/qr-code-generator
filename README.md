@@ -1,6 +1,8 @@
 # QR Code Generator
 
-![QR Code Generator Screenshot](<screens/screen1.png>)
+![QR Code Generator Screenshot](<screens/screen1.png>) (<screens/screen1.png>)
+![QR CODE GENERATED !](<screens/screen2.png>)
+
 
 A simple and responsive web app to generate QR codes for **Text, URL, Email, SMS, WIFI, Contact, PayPal, and Bitcoin**. Built with **HTML, CSS, JavaScript, Bootstrap, and PHP**.
 
