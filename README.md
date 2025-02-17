@@ -15,7 +15,7 @@ A simple and responsive web app to generate QR codes for **Text, URL, Email, SMS
 ✅ Works on all devices (**desktop, tablet, mobile**)  
 
 ## 🎯 Live Demo  
-Check out the live demo: **[QR Code Generator Live Demo](#)** *(Add your live demo link here)*
+Check out the live demo: **[QR Code Generator Live Demo](#)** 
 
 ## 🛠️ Technologies Used  
 - **Frontend:** HTML, CSS (Bootstrap), JavaScript (qrcode.js)  
