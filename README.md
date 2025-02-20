@@ -13,12 +13,31 @@ A simple and responsive web app to generate QR codes for **Text, URL, Email, SMS
 ✅ Download QR codes as **PNG images**  
 ✅ Clean and easy-to-use interface  
 ✅ Works on all devices (**desktop, tablet, mobile**)  
+✅ Scan QR codes using:
+Camera (Live QR Code Scan)
+Image Upload (Decode QR Code from a Picture)
 
+##
+### **2️⃣ Scan a QR Code**  
+
+✅ **Live Camera Scan**  
+- Click **"Start Camera"** to activate the QR scanner.  
+- Point your camera at a QR code.  
+- The app will **automatically decode** the QR code and display the extracted data.  
+
+✅ **Upload & Scan from Image**  
+- Click **"Upload QR Code Image"**.  
+- Select a QR code image from your device.  
+- The app will **decode** the QR code and display the extracted data.  
+
+✅ **Copy Scanned Data**  
+- Click **"Copy to Clipboard"** to copy the decoded QR code data
+- 
 ## 🎯 Live Demo  
 Check out the live demo: **[QR Code Generator Live Demo](#)** 
 
 ## 🛠️ Technologies Used  
-- **Frontend:** HTML, CSS (Bootstrap), JavaScript (qrcode.js)  
+- **Frontend:** HTML, CSS (Bootstrap), JavaScript (qrcode.js, SweetAlert) 
 - **Backend:** PHP (phpqrcode library)  
 
 ## 📌 How to Use  
@@ -40,7 +59,8 @@ Check out the live demo: **[QR Code Generator Live Demo](#)**
 ## 📸 Screenshots  
 - **Homepage**  
 - **QR Code Generation**  
-- **How It Works**   
+- **How It Works**
+- QR Code Scanning (Camera & Image Upload)
 
 ## 🤝 Contributing  
 Contributions are welcome! If you'd like to contribute, feel free to **open a pull request**.  
