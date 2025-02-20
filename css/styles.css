@@ -64,3 +64,18 @@ footer {
     font-size: 1.5rem;
     margin-bottom: 30px;
 }
+/* QR Reader Page Styles */
+#cameraPreview {
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+#cameraFeed {
+    display: block;
+    margin: 0 auto;
+}
+
+#decodedData {
+    resize: none;
+}
