@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Reader - Unnanmed </title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">QR Code Generator</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <a class="nav-link" href="technical-support.html">Technical Support</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="privacy-policy.html">Privacy Policy</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="terms-of-use.html">Terms of Use</a>
+            </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="technical-support.html">Technical Support</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1 class="text-center">QR Code Reader</h1>
+        <p class="text-center">Upload an image or use your camera to scan a QR code.</p>
+
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <!-- File Upload Section -->
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Upload QR Code Image</h5>
+                        <input type="file" id="fileInput" accept="image/*" class="form-control-file">
+                        <small class="form-text text-muted">Supported formats: PNG, JPG, JPEG</small>
+                    </div>
+                </div>
+
+                <!-- Camera Scan Section -->
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Scan QR Code with Camera</h5>
+                        <div id="cameraPreview" class="mb-3">
+                            <video id="cameraFeed" width="100%" autoplay></video>
+                        </div>
+                        <button id="startCamera" class="btn btn-primary btn-block">
+                            <i class="fas fa-camera"></i> Start Camera
+                        </button>
+                        <button id="stopCamera" class="btn btn-danger btn-block" style="display: none;">
+                            <i class="fas fa-stop-circle"></i> Stop Camera
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Decoded Data Section -->
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Decoded Data</h5>
+                        <textarea id="decodedData" class="form-control" rows="4" readonly></textarea>
+                        <button id="copyData" class="btn btn-secondary btn-block mt-3">
+                            <i class="fas fa-copy"></i> Copy to Clipboard
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light text-center py-4 mt-5">
+        <p>&copy; 2025 QR Code Generator. All rights reserved. | By :Unnanmed</p>
+        <p><a href="technical-support.html">Technical Support</a> | <a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-use.html">Terms of Use</a></p> <a href="license.html">License</a></p> 
+    </footer>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jsqr/dist/jsQR.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="js/qr-reader.js"></script>
+</body>
+</html>
